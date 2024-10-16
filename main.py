@@ -25,7 +25,7 @@ SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 FILE_ID = '1c7e3Wgra4XoGWlKeR5xquVWzk_QG1R3_'  # แทนที่ด้วย File ID ที่ถูกต้อง
 
 # ระบุโฟลเดอร์และชื่อไฟล์ปลายทางที่ต้องการบันทึก
-model_dir = r"models/llamatyphoon/llamatyphoon/llamatyphoon"
+model_dir = r"models/llamatyphoon/llamatyphoon"
 zip_file_name = "llamatyphoon.zip"  # ไฟล์ .zip ที่ดาวน์โหลด
 destination_file = os.path.join(model_dir, zip_file_name)
 
